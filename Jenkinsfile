@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_USERNAME = 'your_dockerhub_username'
+        DOCKERHUB_USERNAME = 'ginotrinh'
         IMAGE_NAME         = 'hello-devops'
     }
 
