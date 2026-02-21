@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello DevOps!</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
         body {
             font-family: 'Inter', sans-serif;
@@ -32,8 +37,15 @@
         }
 
         @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(40px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         .badge {
@@ -100,8 +112,15 @@
         }
 
         @keyframes pulse {
-            0%, 100% { box-shadow: 0 0 0 0 rgba(0, 230, 118, 0.5); }
-            50% { box-shadow: 0 0 0 12px rgba(0, 230, 118, 0); }
+
+            0%,
+            100% {
+                box-shadow: 0 0 0 0 rgba(0, 230, 118, 0.5);
+            }
+
+            50% {
+                box-shadow: 0 0 0 12px rgba(0, 230, 118, 0);
+            }
         }
 
         .status {
@@ -111,11 +130,15 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="badge">🚀 CI/CD Pipeline</div>
-        <h1>Hello DevOps!</h1>
-        <p>Đây là phiên bản được Deploy tự động qua <strong>Jenkins CI</strong>. Mỗi lần push code lên GitHub, Jenkins sẽ tự động build, đóng gói và triển khai ứng dụng này.</p>
+        <h2>Hello DevOps!</h2>
+        <p>Đây là phiên bản được Deploy tự động qua <strong>Jenkins CI</strong>. Mỗi lần push code lên GitHub, Jenkins
+            sẽ tự động build, đóng gói và triển khai ứng dụng này.</p>
+        <p>🔥 Xin chào! Đây là phiên bản V2 - Triển khai tự động 100% bằng Jenkins & ArgoCD!
+        <p>
         <div class="stack">
             <span>Docker</span>
             <span>Jenkins</span>
@@ -128,4 +151,5 @@
         </div>
     </div>
 </body>
+
 </html>
